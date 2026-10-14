@@ -1,0 +1,1051 @@
+@media(min-width:1600px) {
+  .auth-panel {
+    padding-inline: var(--space-16)
+  }
+
+  .hero {
+    height: 640px
+  }
+
+  .hero-content {
+    padding-top: var(--space-24)
+  }
+}
+
+@media(max-width:1150px) {
+  .container {
+    width: calc(100% - 64px)
+  }
+
+  .nav-wrap {
+    gap: var(--space-5)
+  }
+
+  .nav-links {
+    gap: var(--space-5)
+  }
+
+  .nav-actions {
+    gap: var(--space-2)
+  }
+
+  .search-card {
+    padding: var(--space-5);
+    grid-template-columns: 1.3fr 1fr 1fr 1.3fr
+  }
+
+  .search-card>.btn {
+    grid-column: 1/-1;
+    margin: var(--space-4) 0 0;
+    min-height: 45px
+  }
+
+  .search-card>.field {
+    padding-inline: var(--space-3)
+  }
+
+  .search-card>.field:nth-child(4) {
+    border: 0
+  }
+
+  .hero-search {
+    margin-top: -60px
+  }
+
+  .hotel-grid {
+    gap: var(--space-4)
+  }
+
+  .card-body {
+    padding: var(--space-4)
+  }
+
+  .card-body h3 {
+    font-size: var(--text-lg)
+  }
+
+  .card-bottom {
+    align-items: flex-start
+  }
+
+  .card-bottom>div>span {
+    display: block
+  }
+
+  .card-bottom .text-btn {
+    white-space: nowrap
+  }
+
+  .destination {
+    height: 280px
+  }
+
+  .why-section {
+    gap: var(--space-10);
+    grid-template-columns: 1fr 1.6fr
+  }
+
+  .why-grid {
+    gap: var(--space-5)
+  }
+
+  .newsletter {
+    padding: var(--space-8);
+    gap: var(--space-6)
+  }
+
+  .newsletter-form {
+    min-width: 0
+  }
+
+  .newsletter-form input {
+    width: 190px
+  }
+
+  .detail-layout {
+    grid-template-columns: minmax(0, 1fr) 330px;
+    gap: var(--space-8)
+  }
+
+  .room-card {
+    grid-template-columns: 120px 1fr
+  }
+
+  .room-card .section-head {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: var(--space-2)
+  }
+
+  .checkout-layout {
+    gap: var(--space-8);
+    grid-template-columns: minmax(0, 1fr) 340px
+  }
+
+  .auth-panel {
+    padding-inline: var(--space-12)
+  }
+
+  .auth-visual {
+    padding: var(--space-8)
+  }
+
+  .auth-visual>.brand {
+    top: 32px;
+    left: 32px
+  }
+
+  .auth-location {
+    flex-direction: column;
+    gap: var(--space-2)
+  }
+
+  .search-layout {
+    grid-template-columns: 210px 1fr;
+    gap: var(--space-5)
+  }
+
+  .search-results {
+    gap: var(--space-4)
+  }
+
+  .card-location {
+    flex-wrap: wrap
+  }
+
+  .footer-grid {
+    gap: var(--space-6)
+  }
+}
+
+@media(max-width:850px) {
+  :root {
+    --text-4xl: 2.7rem;
+    --text-3xl: 2rem
+  }
+
+  .container {
+    width: calc(100% - 40px)
+  }
+
+  .nav-wrap {
+    height: 74px
+  }
+
+  .brand {
+    font-size: 1.5rem
+  }
+
+  .account-name {
+    display: none
+  }
+
+  .menu-toggle {
+    display: inline-flex
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 74px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: var(--space-4) var(--space-6);
+    box-shadow: var(--shadow)
+  }
+
+  .nav-links.open {
+    display: flex
+  }
+
+  .nav-links a {
+    padding: var(--space-3) 0
+  }
+
+  .nav-links a.active:after {
+    bottom: 4px
+  }
+
+  .hero {
+    height: 530px
+  }
+
+  .hero-content {
+    padding-top: var(--space-16)
+  }
+
+  .hero h1 {
+    font-size: 4.2rem
+  }
+
+  .hero p {
+    font-size: var(--text-base)
+  }
+
+  .hero-social {
+    margin-top: var(--space-6)
+  }
+
+  .destination-grid {
+    grid-template-columns: repeat(2, 1fr)
+  }
+
+  .destination {
+    height: 270px
+  }
+
+  .hotel-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+  }
+
+  .hotel-grid .hotel-card:last-child:nth-child(3) {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr
+  }
+
+  .hotel-grid .hotel-card:last-child:nth-child(3) .card-photo {
+    height: 100%;
+    min-height: 230px
+  }
+
+  .why-section {
+    grid-template-columns: 1fr;
+    gap: var(--space-10)
+  }
+
+  .why-section>div>p {
+    max-width: 500px
+  }
+
+  .why-grid {
+    gap: var(--space-8)
+  }
+
+  .testimonial {
+    padding-inline: 10%
+  }
+
+  .newsletter {
+    flex-direction: column;
+    align-items: flex-start
+  }
+
+  .newsletter-form {
+    width: 100%
+  }
+
+  .newsletter-form input {
+    flex: 1;
+    width: auto
+  }
+
+  .footer-grid {
+    grid-template-columns: 2fr 1fr 1fr
+  }
+
+  .footer-grid>div:last-child {
+    grid-column: 1/-1
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: var(--space-2)
+  }
+
+  .search-layout {
+    grid-template-columns: 1fr
+  }
+
+  .filter-panel {
+    display: none;
+    margin-top: var(--space-4)
+  }
+
+  .filter-panel.filter-open {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-5)
+  }
+
+  .filter-panel .section-head {
+    grid-column: 1/-1
+  }
+
+  .filter-panel fieldset {
+    margin: 0
+  }
+
+  .filter-toggle {
+    display: flex;
+    width: 100%
+  }
+
+  .filter-note {
+    display: none
+  }
+
+  .search-card.compact {
+    margin-bottom: var(--space-8)
+  }
+
+  .gallery {
+    grid-template-rows: 160px 160px;
+    gap: var(--space-2)
+  }
+
+  .detail-layout {
+    grid-template-columns: 1fr
+  }
+
+  .detail-layout>aside {
+    grid-row: 1
+  }
+
+  .booking-card {
+    position: static;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 var(--space-5)
+  }
+
+  .booking-card .booking-price,
+  .booking-card>.review-line,
+  .booking-card>.availability,
+  .booking-card>.price-breakdown,
+  .booking-card>.form-error,
+  .booking-card>.btn,
+  .booking-card>.small,
+  .booking-card>.booking-perks {
+    grid-column: 1/-1
+  }
+
+  .booking-card>.field {
+    grid-column: 1/-1
+  }
+
+  .booking-card>.form-grid {
+    grid-template-columns: 1fr 1fr
+  }
+
+  .booking-perks {
+    display: none
+  }
+
+  .room-card {
+    grid-template-columns: 180px 1fr
+  }
+
+  .room-card .section-head {
+    flex-direction: row;
+    align-items: center
+  }
+
+  .checkout-layout {
+    grid-template-columns: 1fr
+  }
+
+  .checkout-summary {
+    position: static;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 220px 1fr
+  }
+
+  .checkout-summary>img {
+    height: 100%
+  }
+
+  .checkout-summary .price-breakdown {
+    margin-bottom: 0
+  }
+
+  .summary-content {
+    padding: var(--space-5)
+  }
+
+  .summary-content hr {
+    margin: var(--space-3) 0
+  }
+
+  .summary-content p {
+    margin-top: var(--space-2)
+  }
+
+  .booking-item {
+    grid-template-columns: 200px 1fr
+  }
+
+  .booking-item .button-row {
+    gap: var(--space-2)
+  }
+
+  .booking-item .section-head:last-child {
+    align-items: flex-start;
+    flex-direction: column
+  }
+
+  .profile-layout {
+    grid-template-columns: 220px 1fr;
+    gap: var(--space-5)
+  }
+
+  .profile-aside,
+  .profile-form {
+    padding: var(--space-5)
+  }
+
+  .auth-page {
+    grid-template-columns: .8fr 1fr
+  }
+
+  .auth-panel {
+    padding: var(--space-6) var(--space-8)
+  }
+
+  .auth-story h2 {
+    font-size: 3rem
+  }
+
+  .auth-story .glass-tag {
+    font-size: .6rem
+  }
+
+  .auth-story>p {
+    font-size: var(--text-sm)
+  }
+
+  .auth-visual {
+    padding: var(--space-6)
+  }
+
+  .auth-visual>.brand {
+    left: 24px;
+    top: 32px
+  }
+
+  .auth-form h1 {
+    font-size: 1.9rem
+  }
+}
+
+@media(max-width:600px) {
+  :root {
+    --space-20: 56px;
+    --space-24: 64px;
+    --text-3xl: 1.8rem;
+    --text-2xl: 1.5rem
+  }
+
+  .container {
+    width: calc(100% - 32px)
+  }
+
+  .site-header .brand {
+    font-size: 1.4rem
+  }
+
+  .brand-mark {
+    height: 32px;
+    width: 29px;
+    font-size: 1.7rem
+  }
+
+  .nav-actions {
+    gap: 6px
+  }
+
+  .nav-actions>.icon-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 1rem
+  }
+
+  .account-menu summary {
+    gap: 4px
+  }
+
+  .account-menu summary>.avatar {
+    height: 31px;
+    width: 31px
+  }
+
+  .nav-wrap {
+    gap: var(--space-2)
+  }
+
+  .nav-actions>a.icon-btn {
+    display: none
+  }
+
+  .nav-links {
+    gap: var(--space-5);
+    justify-content: space-between
+  }
+
+  .hero {
+    height: 465px
+  }
+
+  .hero-content {
+    padding-top: var(--space-12)
+  }
+
+  .hero h1 {
+    font-size: 3.4rem
+  }
+
+  .hero p {
+    max-width: 300px;
+    font-size: var(--text-sm);
+    margin-top: var(--space-5)
+  }
+
+  .glass-tag {
+    font-size: .63rem;
+    padding: 7px 11px
+  }
+
+  .hero-social {
+    display: block;
+    margin-top: var(--space-5)
+  }
+
+  .hero-social span {
+    display: block;
+    margin-top: var(--space-1)
+  }
+
+  .hero-search {
+    margin-top: -32px
+  }
+
+  .search-card {
+    grid-template-columns: 1fr 1fr;
+    padding: var(--space-4);
+    row-gap: var(--space-3)
+  }
+
+  .search-card>.field {
+    padding: 0;
+    border: 0
+  }
+
+  .search-card>.field:first-child {
+    grid-column: 1/-1;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: var(--space-2)
+  }
+
+  .search-card>.field:nth-child(2) {
+    padding-right: var(--space-3);
+    border-right: 1px solid var(--border)
+  }
+
+  .search-card>.field:nth-child(3) {
+    padding-left: var(--space-3)
+  }
+
+  .search-card>.field:nth-child(4) {
+    grid-column: 1/-1;
+    border-top: 1px solid var(--border);
+    padding-top: var(--space-3)
+  }
+
+  .guest-pickers {
+    gap: var(--space-6)
+  }
+
+  .guest-pickers select {
+    font-size: var(--text-sm)
+  }
+
+  .search-card>.btn {
+    margin-top: 0;
+    min-height: 48px
+  }
+
+  .trust-row {
+    gap: var(--space-3);
+    justify-content: space-between;
+    font-size: .62rem;
+    padding-top: var(--space-5)
+  }
+
+  .section-head {
+    gap: var(--space-3)
+  }
+
+  .section>.section-head,
+  .soft-section>.container>.section-head {
+    align-items: flex-start;
+    flex-direction: column
+  }
+
+  .section-head>.text-btn {
+    padding-top: var(--space-2)
+  }
+
+  .destination-grid {
+    gap: var(--space-3);
+    margin-top: var(--space-6)
+  }
+
+  .destination {
+    height: 220px
+  }
+
+  .destination>div {
+    left: 15px;
+    right: 12px;
+    bottom: 18px
+  }
+
+  .destination>div>span {
+    font-size: .59rem
+  }
+
+  .destination h3 {
+    font-size: 1.45rem
+  }
+
+  .destination p {
+    font-size: .65rem;
+    line-height: 1.5;
+    max-width: 140px
+  }
+
+  .destination-arrow {
+    right: 12px;
+    top: 12px;
+    height: 28px;
+    width: 28px
+  }
+
+  .hotel-grid,
+  .search-results {
+    grid-template-columns: 1fr
+  }
+
+  .hotel-grid .hotel-card:last-child:nth-child(3) {
+    display: block;
+    grid-column: auto
+  }
+
+  .hotel-grid .hotel-card:last-child:nth-child(3) .card-photo {
+    height: 235px
+  }
+
+  .card-photo {
+    height: 235px
+  }
+
+  .card-body {
+    padding: var(--space-5)
+  }
+
+  .card-body h3 {
+    font-size: var(--text-xl)
+  }
+
+  .card-bottom>div>span {
+    display: inline
+  }
+
+  .card-location {
+    flex-wrap: nowrap
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6)
+  }
+
+  .why-grid>div {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: var(--space-5)
+  }
+
+  .feature-icon {
+    grid-row: 1/3;
+    width: 48px;
+    height: 48px
+  }
+
+  .why-grid h3 {
+    margin-top: 0
+  }
+
+  .why-grid p {
+    margin-top: var(--space-2)
+  }
+
+  .testimonial {
+    padding-inline: var(--space-5)
+  }
+
+  .testimonial blockquote {
+    font-size: var(--text-xl)
+  }
+
+  .newsletter {
+    padding: var(--space-6)
+  }
+
+  .newsletter-form {
+    flex-direction: column
+  }
+
+  .newsletter-form input {
+    width: 100%
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-8)
+  }
+
+  .footer-grid>div:first-child {
+    grid-column: 1/-1
+  }
+
+  .footer-grid>div:last-child {
+    grid-column: 1/-1
+  }
+
+  .page-heading h1 {
+    font-size: var(--text-3xl)
+  }
+
+  .page-heading p:last-child {
+    font-size: var(--text-sm)
+  }
+
+  .results-toolbar {
+    align-items: center
+  }
+
+  .results-toolbar select {
+    max-width: 160px;
+    padding: 10px;
+    font-size: var(--text-xs)
+  }
+
+  .results-count {
+    font-size: var(--text-sm)
+  }
+
+  .filter-panel.filter-open {
+    grid-template-columns: 1fr
+  }
+
+  .hotel-heading {
+    flex-wrap: wrap;
+    align-items: flex-start
+  }
+
+  .hotel-heading .btn {
+    min-height: 38px;
+    padding: 8px 12px
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 230px 110px 110px;
+    gap: 6px
+  }
+
+  .gallery-image-0 {
+    grid-row: 1;
+    grid-column: 1/-1
+  }
+
+  .gallery-image-1 {
+    grid-column: 1;
+    grid-row: 2/4
+  }
+
+  .gallery-image-2 {
+    grid-column: 2;
+    grid-row: 2
+  }
+
+  .gallery-image-3 {
+    grid-column: 2;
+    grid-row: 3
+  }
+
+  .detail-layout {
+    gap: var(--space-8);
+    margin-top: var(--space-6)
+  }
+
+  .booking-card {
+    display: block;
+    padding: var(--space-5)
+  }
+
+  .booking-card>.form-grid {
+    grid-template-columns: 1fr 1fr
+  }
+
+  .amenities-grid {
+    grid-template-columns: 1fr 1fr
+  }
+
+  .room-card {
+    grid-template-columns: 1fr
+  }
+
+  .room-card>img {
+    height: 190px
+  }
+
+  .room-card .section-head {
+    flex-direction: row;
+    align-items: center
+  }
+
+  .policy-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-5)
+  }
+
+  .review-card {
+    padding: var(--space-5)
+  }
+
+  .review-card .section-head {
+    align-items: flex-start
+  }
+
+  .review-author small {
+    font-size: .64rem
+  }
+
+  .modal {
+    padding: var(--space-5)
+  }
+
+  .modal h2 {
+    font-size: var(--text-xl)
+  }
+
+  .lightbox-controls .btn {
+    padding: 10px;
+    font-size: var(--text-xs)
+  }
+
+  .steps {
+    gap: var(--space-3);
+    justify-content: space-between
+  }
+
+  .steps li {
+    font-size: .68rem;
+    gap: 6px;
+    flex-direction: column
+  }
+
+  .steps li>span {
+    width: 30px;
+    height: 30px
+  }
+
+  .checkout-content {
+    padding: var(--space-5)
+  }
+
+  .checkout-summary {
+    display: block
+  }
+
+  .checkout-summary>img {
+    height: 170px
+  }
+
+  .booking-item {
+    grid-template-columns: 1fr
+  }
+
+  .booking-item>img {
+    height: 190px;
+    min-height: 0
+  }
+
+  .booking-item-main {
+    padding: var(--space-5)
+  }
+
+  .booking-facts {
+    gap: var(--space-2);
+    flex-direction: column
+  }
+
+  .booking-item-main .button-row .btn {
+    font-size: var(--text-xs);
+    padding: 10px 12px
+  }
+
+  .tabs {
+    gap: var(--space-5)
+  }
+
+  .tabs button {
+    padding-inline: 0
+  }
+
+  .confirmation-ticket {
+    padding: var(--space-6)
+  }
+
+  .confirmation .button-row {
+    flex-direction: column;
+    align-items: stretch
+  }
+
+  .profile-layout {
+    grid-template-columns: 1fr
+  }
+
+  .profile-aside {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 65px 1fr;
+    gap: 0 var(--space-4)
+  }
+
+  .profile-aside>.avatar {
+    grid-row: 1/4;
+    width: 60px;
+    height: 60px;
+    margin: 0
+  }
+
+  .profile-aside>h2 {
+    margin-top: var(--space-1)
+  }
+
+  .profile-aside>.status {
+    justify-self: start;
+    margin-top: var(--space-2)
+  }
+
+  .profile-aside>p:last-child {
+    grid-column: 1/-1;
+    margin-top: var(--space-4)
+  }
+
+  .profile-aside>p {
+    font-size: var(--text-xs);
+    margin-top: var(--space-1)
+  }
+
+  .auth-page {
+    display: flex;
+    flex-direction: column
+  }
+
+  .auth-visual {
+    min-height: 310px;
+    padding: var(--space-6);
+    background-position: center 55%
+  }
+
+  .auth-visual>.brand {
+    top: 24px;
+    left: 24px;
+    font-size: 1.6rem
+  }
+
+  .auth-story {
+    padding: var(--space-12) 0 0
+  }
+
+  .auth-story .glass-tag {
+    display: none
+  }
+
+  .auth-story h2 {
+    font-size: 2.8rem;
+    margin-top: var(--space-6)
+  }
+
+  .auth-story>p {
+    margin-top: var(--space-3);
+    font-size: var(--text-xs)
+  }
+
+  .auth-location {
+    display: none
+  }
+
+  .auth-panel {
+    min-height: 0;
+    padding: var(--space-5) var(--space-6) var(--space-8);
+    max-width: 500px
+  }
+
+  .auth-top {
+    margin-bottom: var(--space-3)
+  }
+
+  .auth-tabs {
+    margin-bottom: var(--space-6)
+  }
+
+  .auth-form>div:first-child {
+    margin-bottom: var(--space-6)
+  }
+
+  .auth-form h1 {
+    font-size: var(--text-3xl)
+  }
+
+  .auth-bottom {
+    margin-top: var(--space-6)
+  }
+}

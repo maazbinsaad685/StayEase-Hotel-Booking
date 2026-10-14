@@ -1,0 +1,10 @@
+# This application does not require environment variables or keys.
+.env
+.env.*
+!.env.example
+node_modules/
+.DS_Store
+*.log
+*.pem
+*.key
+qa-*/
